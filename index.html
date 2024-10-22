@@ -1,145 +1,226 @@
 <!--
 Requirements
 [ x ] Two External Links
-[  ] Table
-[  ] Three CSS Rules
-[  ] Three Images
+[ x ] Table
+[ x ] Three CSS Rules
+[ x ] Three Images
 
 Select ONE Additional Feature to Add  
 [ no ] Feature 1 - Include a :hover feature
 [ no ] Feature 2 - Include at least two Internal links
-[ no ] Feature 3 - Include a list in a tabl
+[ x ] Feature 3 - Include a list in a tabl
 [ no ] Feature 4 - Include at least two background images in a table
 -->
 
 <!DOCTYPE html>
 <html>
+  <head>
+    <title>Project: Recipe book</title>
+    <meta charset="utf-8" />
+    <style>
+      #recipe {
+        color: rgb(145, 13, 13);
+      }
+      #two {
+        color: rgb(145, 75, 13);
+      }
+      #three {
+        color: rgb(222, 168, 69);
+      }
 
-<head>
-  <title>Project: Recipe book</title>
-  <meta charset="utf-8">
-  <style>
-    #recipe {color: rgb(145, 13, 13);}
-    #two {color: rgb(145, 75, 13);}
-      #three {color: rgb(222, 168, 69);}
-    
-    table, th, td {
-      
-      border: 2px solid;
-    }
-    
-  </style>
-</head>
+      table,
+      th,
+      td {
+        border: 2px solid;
+      }
+    </style>
+  </head>
 
-<body>
+  <body>
+    <h1>Ava's Recipe Book</h1>
 
-  <h1> Ava's Recipe Book</h1>
+    <h2>Contents:</h2>
 
-  <h2>Contents:</h2>
+    <ol>
+      <li>
+        <a
+          href="https://sallysbakingaddiction.com/soft-baked-white-chocolate-chip-cranberry-cookies/"
+          >Recipe #1 chocolate cranberry cookies
+        </a>
+      </li>
+      <li>
+        <a href="https://www.food.com/recipe/autumn-soup-93684"
+          >Recipe #2 - autumn soup
+        </a>
+      </li>
+      <li>
+        <a href="https://thehonoursystem.com/natural-fall-air-freshener/"
+          >Recipe #3 - simmer pot (non edible)</a
+        >
+      </li>
+    </ol>
 
-  <ol>
-    <li><a href="https://sallysbakingaddiction.com/soft-baked-white-chocolate-chip-cranberry-cookies/">Recipe #1 chocolate cranberry cookies </a></li>
-    <li><a href="https://www.food.com/recipe/autumn-soup-93684">Recipe #2 - autumn soup </a></li>
-    <li><a href = "https://thehonoursystem.com/natural-fall-air-freshener/">Recipe #3 - simmer pot (non edible)</a></li>
-  </ol>
-
-
-  <h2 id="recipe">Recipe #1</h2>
+    <h2 id="recipe">Recipe #1</h2>
 
     <table>
-            <thead>
-                <tr>
-                    <th>Ingredients</th>
-                    <th>prep</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-              <td> 
-                  <ul>
-                    <li>3/4 cup (12 Tbsp; 170g) unsalted butter, softened to room temperature </li>
-                    <li> 3/4 cup (150g) packed light or dark brown sugar (I use dark)</li>
-                     <li> 1/4 cup (50g) granulated sugar</li>
-                     <li>1 large egg, at room temperature </li>
-                     <li>2 teaspoons pure vanilla extract </li>
-                     <li>2 cups (250g) all-purpose flour (spooned & leveled) </li>
-                     <li>2 teaspoons cornstarch (cornflour) </li>
-                     <li>1 teaspoon baking soda </li>
-                     <li>1/2 teaspoon salt </li>
-                     <li>3/4 cup (135g) white chocolate chips, plus a few extra for garnish </li>
-                     <li>1 cup (140g) dried cranberries, plus a few extra for garnish </li>
-                  
-                </ul>
-                  </td>
-                  <td> 
-                    In a large bowl using a handheld mixer or stand mixer with paddle attachment, beat the butter, brown sugar, and granulated sugar together on medium speed until combined and creamy, about 2 minutes. Beat in the egg and vanilla. Scrape down the sides and bottom of the bowl and beat again as needed to combine.
-In a separate bowl, whisk the flour, cornstarch, baking soda and salt together. On low speed, slowly mix into the wet ingredients until combined. The cookie dough will be soft and thick. Add the white chocolate chips and dried cranberries and beat on low speed until combined. Cover dough tightly and chill in the refrigerator for at least 1 hour and up to 3-4 days. Chilling is imperative to prevent the cookies from over-spreading.
-Remove cookie dough from the refrigerator. If the cookie dough chilled longer than 3-4 hours, let it sit at room temperature for about 30 minutes. This makes the firm cookie dough easier to scoop and roll.
-Preheat oven to 350°F (177°C). Line large baking sheets with parchment paper or silicone baking mats. Set aside.
-As the oven preheats, scoop and roll dough, about 1.5 Tablespoons of dough each, into balls. The dough may be slightly crumbly, but will come together as you work it with your hands. Arrange dough balls 3 inches apart on the prepared baking sheets.
-Bake for 11-12 minutes or until lightly browned around the edges. The centers will still look soft. If cookies didn’t spread much, lightly bang the the baking sheets on the counter a couple times while the cookies are still warm. They’ll stretch and deflate.
+      <thead>
+        <tr>
+          <th>Ingredients</th>
+          <th>prep</th>
+          <th>example</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <ul>
+              <li>
+                3/4 cup (12 Tbsp; 170g) unsalted butter, softened to room
+                temperature
+              </li>
+              <li>
+                3/4 cup (150g) packed light or dark brown sugar (I use dark)
+              </li>
+              <li>1/4 cup (50g) granulated sugar</li>
+              <li>1 large egg, at room temperature</li>
+              <li>2 teaspoons pure vanilla extract</li>
+              <li>2 cups (250g) all-purpose flour spooned and leveled</li>
+              <li>2 teaspoons cornstarch (cornflour)</li>
+              <li>1 teaspoon baking soda</li>
+              <li>1/2 teaspoon salt</li>
+              <li>
+                3/4 cup (135g) white chocolate chips, plus a few extra for
+                garnish
+              </li>
+              <li>
+                1 cup (140g) dried cranberries, plus a few extra for garnish
+              </li>
+            </ul>
+          </td>
+          <td>
+            In a large bowl using a handheld mixer or stand mixer with paddle
+            attachment, beat the butter, brown sugar, and granulated sugar
+            together on medium speed until combined and creamy, about 2 minutes.
+            Beat in the egg and vanilla. Scrape down the sides and bottom of the
+            bowl and beat again as needed to combine. In a separate bowl, whisk
+            the flour, cornstarch, baking soda and salt together. On low speed,
+            slowly mix into the wet ingredients until combined. The cookie dough
+            will be soft and thick. Add the white chocolate chips and dried
+            cranberries and beat on low speed until combined. Cover dough
+            tightly and chill in the refrigerator for at least 1 hour and up to
+            3-4 days. Chilling is imperative to prevent the cookies from
+            over-spreading. Remove cookie dough from the refrigerator. If the
+            cookie dough chilled longer than 3-4 hours, let it sit at room
+            temperature for about 30 minutes. This makes the firm cookie dough
+            easier to scoop and roll. Preheat oven to 350°F (177°C). Line large
+            baking sheets with parchment paper or silicone baking mats. Set
+            aside. As the oven preheats, scoop and roll dough, about 1.5
+            Tablespoons of dough each, into balls. The dough may be slightly
+            crumbly, but will come together as you work it with your hands.
+            Arrange dough balls 3 inches apart on the prepared baking sheets.
+            Bake for 11-12 minutes or until lightly browned around the edges.
+            The centers will still look soft. If cookies didn’t spread much,
+            lightly bang the the baking sheets on the counter a couple times
+            while the cookies are still warm. They’ll stretch and deflate. Allow
+            cookies to cool on the baking sheet for 5 minutes. During this time,
+            press extra white chocolate chips and dried cranberries into the
+            warm tops. This is optional and only for looks. After 5 minutes,
+            transfer to a wire rack to cool completely. Cookies stay fresh
+            covered at room temperature for up to 1 week.
+          </td>
+          <td>
+            <img
+              src="https://sallysbakingaddiction.com/wp-content/uploads/2021/12/soft-white-chocolate-cranberry-cookies.jpg"
+              width="400"
+            />
+          </td>
+        </tr>
+      </tbody>
+    </table>
 
-Allow cookies to cool on the baking sheet for 5 minutes. During this time, press extra white chocolate chips and dried cranberries into the warm tops. This is optional and only for looks. After 5 minutes, transfer to a wire rack to cool completely.
-Cookies stay fresh covered at room temperature for up to 1 week.
-                  </td>
-              </tr>
-            </tbody>
-        </table>
+    <ul>
+      <li>Time: 1 hr 30 min _</li>
+      <li>Serves: depends on how many cookies your gonna eat_</li>
+    </ul>
 
-  <ul>
-    <li>Time: 1 hr 30 min _</li>
-    <li>Serves: depends on how many cookies your gonna eat_</li>
-  </ul>
+    <h2 id="two">Recipe #2</h2>
 
-   <h2 id= "two"> Recipe #2</h2> 
-  
-  
     <table>
-            <thead>
-                <tr>
-                    <th>Ingredients</th>
-                    <th>prep</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-              <td> 
-                  <ul>
-                    <li>1 lb of pre-cooked ground beef </li>
-                    <li>1  cup of chopped onion</li>
-                     <li> 4 cups water</li>
-                     <li> 1 cup chopped fresh carrot </li>
-                     <li>1 cup chopped celery </li>
-                     <li>1 cup chopped potato </li>
-                     <li>1 (28 ounce) can tomatoes </li>
-                     <li>1/4 cup barley </li>
-                     <li>1 teaspoon salt </li>
-                     <li>1 teaspoon black pepper </li>
-                     <li>1 teaspoon Kitchen Bouquet </li>
-                     <li>2 bay leaves </li>
-                     <li>1 teaspoon sweet basil </li>
-                     <li>1 beef bouillon cube </li>
-                  
-                </ul>
-                  </td>
-                  <td> 
-                  Combine all ingredients in a large kettle. 
-                    Cook until vegetables and the barley are tender.
-                    Option:can be placed in a slow cooker on low for 8-9 hours if wished.
+      <thead>
+        <tr>
+          <th>Ingredients</th>
+          <th>prep</th>
+          <th>example</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <ul>
+              <li>1 lb of pre-cooked ground beef</li>
+              <li>1 cup of chopped onion</li>
+              <li>4 cups water</li>
+              <li>1 cup chopped fresh carrot</li>
+              <li>1 cup chopped celery</li>
+              <li>1 cup chopped potato</li>
+              <li>1 (28 ounce) can tomatoes</li>
+              <li>1/4 cup barley</li>
+              <li>1 teaspoon salt</li>
+              <li>1 teaspoon black pepper</li>
+              <li>1 teaspoon Kitchen Bouquet</li>
+              <li>2 bay leaves</li>
+              <li>1 teaspoon sweet basil</li>
+              <li>1 beef bouillon cube</li>
+            </ul>
+          </td>
+          <td>
+            Combine all ingredients in a large kettle. Cook until vegetables and
+            the barley are tender. Option:can be placed in a slow cooker on low
+            for 8-9 hours if wished.
+          </td>
+          <td>
+            <img
+              src="https://img.sndimg.com/food/image/upload/f_auto,c_thumb,q_55,w_860,ar_3:2/v1/img/recipes/93/68/4/0Qo3MjbgTaGki8AGg0oX_0S9A5420.jpg"
+              width="400"
+            />
+          </td>
+        </tr>
+      </tbody>
+    </table>
 
-                  </td>
-              </tr>
-            </tbody>
-        </table>
+    <h2 id="three">Recipe #3</h2>
 
-  
-   <h2 id= "three"> Recipe #3</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Ingredients</th>
+          <th>prep</th>
+          <th>example (hypothetical)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <ul>
+              <li>
+                tbd...it's a simmer pot tho...<br />
+                makes your house smell nice
+              </li>
+            </ul>
+          </td>
+          <td>use the link i put in and go look at the recipie</td>
+          <td>
+            <img
+              src="https://thehonoursystem.com/wp-content/uploads/2022/09/fall-simmer-pot-recipe-3.jpg"
+              width="500"
+            />
+          </td>
+        </tr>
+      </tbody>
+    </table>
 
-
- 
-
-  <p><em>Source: <a href="?">Some recipes websites</a></em></p>
-
-</body>
-
+    <p>
+      <em>Source: <a href="?">Some recipes websites</a></em>
+    </p>
+  </body>
 </html>
