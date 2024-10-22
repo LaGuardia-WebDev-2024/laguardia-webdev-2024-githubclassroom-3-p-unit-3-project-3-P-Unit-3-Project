@@ -1,60 +1,121 @@
-<!--
-Requirements
-[  ] Two External Links
-[  ] Table
-[  ] Three CSS Rules
-[  ] Three Images
-
-Select ONE Additional Feature to Add  
-[ no ] Feature 1 - Include a :hover feature
-[ no ] Feature 2 - Include at least two Internal links
-[ no ] Feature 3 - Include a list in a tabl
-[ no ] Feature 4 - Include at least two background images in a table
--->
-
-<!DOCTYPE html>
 <html>
+  <head>
+    <title>Project: Recipe book</title>
+    <meta charset="utf-8" />
+    <style>
+      h2:hover {
+        background-color: rgb(104, 16, 53);
+      }
+      h1:hover {
+        background-color: rgb(104, 16, 53);
+      }
+      strong:hover {
+        background-color: rgb(249, 196, 219);
+      }
+      table,
+      th,
+      td {
+        border: 4px solid lightpink;
+      }
 
-<head>
-  <title>Project: Recipe book</title>
-  <meta charset="utf-8">
-  <style>
-  </style>
-</head>
+      body {
+        background-color: rgb(167, 31, 89);
+      }
+      h1 {
+        color: rgb(255, 255, 255);
+      }
+      h2 {
+        color: rgb(255, 255, 255);
+      }
+      li {
+        color: rgb(255, 255, 255);
+      }
+      th {
+        color: rgb(255, 255, 255);
+      }
+      tr {
+        color: rgb(255, 255, 255);
+      }
+      p {
+        color: rgb(255, 255, 255);
+      }
+      img {
+        border: 9px solid rgb(241, 147, 187);
+        object-fit: cover;
+      }
+      img:hover{
+        border-radius: 20px;
+      }
+    </style>
+  </head>
 
-<body>
+  <body>
+    <h1>Elle's Recipe Book</h1>
 
-  <h1>____'s Recipe Book</h1>
+    <h2>Contents:</h2>
+    <img
+      src="https://cdn.glitch.global/0604f394-f595-45da-98cb-c5fc935ea6c6/holding2-735x1103.jpg?v=1729267741275"
+      width="120"
+      height="200"
+    />
 
-  <h2>Contents:</h2>
+    <img
+      src="https://cdn.glitch.global/0604f394-f595-45da-98cb-c5fc935ea6c6/images.jpeg?v=1729526663497"
+      width="150"
+      height="200"
+    />
 
-  <ol>
-    <li><a href="?">Recipe #1</a></li>
-  </ol>
+    <img
+      src="https://cdn.glitch.global/0604f394-f595-45da-98cb-c5fc935ea6c6/Unknown.jpeg?v=1729526662054"
+      width="140"
+      height="200"
+    />
 
-  <h2 id="?">Recipe #1</h2>
+    <ol>
+      <li>
+        <a href="https://www.bbcgoodfood.com/howto/guide/how-make-slime"
+          >Recipe #1</a
+        >
+      </li>
+    </ol>
 
-  <ul>
-    <li>Time: _</li>
-    <li>Serves: _</li>
-  </ul>
+    <h2 id="https://www.bbcgoodfood.com/howto/guide/how-make-slime">
+      <p>Recipe #1</p>
+    </h2>
 
-  <table>
-    <thead>
-      <tr>
-        <th>Ingredients</th>
-        <th>Quantity</th>
-      </tr>
-    </thead>
-    <tbody>
-    </tbody>
-  </table>
+    <ul>
+      <li>Time: 10min</li>
+      <li>Serves: 1</li>
+    </ul>
 
-  <p><strong>Step 1:</strong> Do something.
-  </p>
-
-  <p><em>Source: <a href="?">Some recipes websites</a></em></p>
-
-</body>
-
+    <table>
+      <thead>
+        <tr>
+          <th>ingredients</th>
+          <th>Quantity</th>
+          <th>price</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>glue, borax,spoon, food coloring of your choice</td>
+          <td>one bowl</td>
+          <td>10-11</td>
+        </tr>
+      </tbody>
+    </table>
+    <p><strong>Step 1:</strong> put glue and food coloring in a bowl</p>
+    <p><strong> Step 2</strong> mix well</p>
+    <p><strong> Step 3:</strong> add borax in small amounts</p>
+    <p><strong> Step 4:</strong> mix once more</p>
+    <p><strong> Step 5:</strong> finshed!</p>
+    <p>
+      <em
+        >Source:
+        <a href="https://teachingmama.org/fluffy-slime-recipe/"
+          >Some recipes websites</a
+        ></em
+      >
+    </p>
+  </body>
 </html>
