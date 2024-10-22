@@ -1,60 +1,149 @@
 <!--
 Requirements
-[  ] Two External Links
-[  ] Table
-[  ] Three CSS Rules
-[  ] Three Images
+[ yes ] Two External Links
+[ yes ] Table
+[yes]Three CSS Rules
+[ yes ] Three Images
 
 Select ONE Additional Feature to Add  
 [ no ] Feature 1 - Include a :hover feature
-[ no ] Feature 2 - Include at least two Internal links
+[ yes ] Feature 2 - Include at least two Internal links
 [ no ] Feature 3 - Include a list in a tabl
 [ no ] Feature 4 - Include at least two background images in a table
 -->
 
 <!DOCTYPE html>
 <html>
+  <head>
+    <title>Project: Recipe book</title>
+    <meta charset="utf-8" />
+    <style>
+      h1 {
+        color: rgb(249, 157, 145);
+      }
+      h2 {
+        color: rgb(249, 157, 145);
+      }
+      body {
+        background-color: rgb(191, 227, 251);
+        alignment
+      }
+      .text1 {
+        color: rgb(131, 178, 106);
+      }
+      .text2 {
+        color: rgb(189, 152, 205);
+      }
+      table,
+      th,
+      td {
+        border: 1px solid;
+        border-color: rgb(9, 10, 120);
+      }
+      .text3 {
+        color: rgb(300, 107, 145);
+      }     
+    </style>
+  </head>
 
-<head>
-  <title>Project: Recipe book</title>
-  <meta charset="utf-8">
-  <style>
-  </style>
-</head>
+  <body>
+    <h1>Chiara's Recipe Book</h1>
+    <img
+      src="https://theliteracystore.com/cdn/shop/products/580810-alt1_2048x.jpg?v=1556047853"
+      width="200"
+    />
+    <img
+      src="https://m.media-amazon.com/images/I/71ZzWXsZVFL._AC_UF1000,1000_QL80_.jpg"
+      width="135"
+    />
+    <img
+      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNSATQi2uqTRZH4_amXzJwWFLN6mK-GcVN0g&s"
+      width="170"
+    /><br />
+    <h2>Contents:</h2>
 
-<body>
+    <ol>
+      <li><a href="#ccc">Recipe!</a></li>
+      <li><a href="#sdc">Steps!</a></li>
+    </ol>
 
-  <h1>____'s Recipe Book</h1>
+    <h2 id="ccc">Chocolate Chip Cookies</h2>
 
-  <h2>Contents:</h2>
+    <ul>
+      <li class="text3">Time: ~ 30 minutes</li>
+      <li class="text3">Serves: A lot!</li>
+    </ul>
 
-  <ol>
-    <li><a href="?">Recipe #1</a></li>
-  </ol>
+    <table>
+      <thead>
+        <tr>
+          <th class="text1">Ingredients</th>
+          <th class="text2">Quantity</th>
+        </tr>
+      </thead>
+      <tbody>
+        <td class="text1">Flour</td>
+        <td class="text2">2 Cups</td>
+        <tr>
+          <td class="text1">Sugar</td>
+          <td class="text2">1 Cup</td>
+        </tr>
+        <tr>
+          <td class="text1">Salt</td>
+          <td class="text2">1/2 Tsp</td>
+        </tr>
+        <tr>
+          <td class="text1">Chocolate Chips</td>
+          <td class="text2">1 Cup</td>
+        </tr>
+        <tr>
+          <td class="text1">Baking Soda</td>
+          <td class="text2">1 Tsp</td>
+        </tr>
+        <tr>
+          <td class="text1">Baking Powder</td>
+          <td class="text2">1 Tsp</td>
+        </tr>
+        <tr>
+          <td class="text1">Dark Molasses</td>
+          <td class="text2">1 Tbsp</td>
+        </tr>
+        <tr>
+          <td class="text1">Vegetable Oil</td>
+          <td class="text2">2/3 Cup</td>
+        </tr>
+        <tr>
+          <td class="text1">Milk</td>
+          <td class="text2">1/4 Cup</td>
+        </tr>
+        <tr>
+        <td class="text1"> Vanilla</td>
+        <td class="text2"> 1 Tsp</td></tr>
+      </tbody>
+    </table>
 
-  <h2 id="?">Recipe #1</h2>
-
-  <ul>
-    <li>Time: _</li>
-    <li>Serves: _</li>
-  </ul>
-
-  <table>
-    <thead>
-      <tr>
-        <th>Ingredients</th>
-        <th>Quantity</th>
-      </tr>
-    </thead>
-    <tbody>
-    </tbody>
-  </table>
-
-  <p><strong>Step 1:</strong> Do something.
-  </p>
-
-  <p><em>Source: <a href="?">Some recipes websites</a></em></p>
-
-</body>
-
+    <p class="text3" id:"sdc">
+      <strong>Step 1:</strong> Preheat the oven to 350 degrees Farrenheit<br>
+      <strong>Step 2:</strong> Combine all dry incredients in a large bowl and
+      whisk together.<br />
+      <strong>Step 3:</strong> In a smaller bowl, combine all wet ingrediants
+      and whisk to combine.<br />
+      <strong>Step 4:</strong> Slowly pour the wet ingrediants into the dry
+      ingrediants while stirring slowly.<br />
+      <strong>Step 5:</strong> Once finished pouring, mix it all together using a spoon!<br>
+      <strong>Step 6:</strong> Form balls of dough according to how large you want your cookies.<br>
+      <strong>Step 7:</strong> Line the cookie sheet, put the cookies on the sheet, and bake for 8-10 minutes<br>
+      <strong>Step 8:</strong> Once out, let the cookies cool for 5 minutes on the pan before transfering them off!
+    
+    <h2 id="sdc">Snicker Doodle Cookies</h2>
+    <p>
+      <em
+        >Source: <br /><a
+          href="http://www.ericasweettooth.com/2011/05/vegan-chocolate-chip-cookies.html"
+          >Chocolate Chip Cookies</a><br>
+      <a href="https://www.delish.com/cooking/g1956/best-cookies"> Other good cookie recipes!</a></em
+      >
+    </p>
+  </body>
 </html>
+<br />
